@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа №1</title>
+</head>
+<body>
+    <table border="1" width="100%" cellpadding="10">
+        <tr>
+            <th colspan="2">Шапка</th>
+        </tr>
+        <tr>
+            <th>
+                <!-- Гиперссылка -->
+                <div class="link">
+                    <a href="./html_sec.html#here">Относительная гиперссылка</a>
+                </div>
+            </th>
+            <td>
+                <div class="formatted-text">
+                    <p><b><i>E=mc<sup>2</sup></i>,</b> где <b>E</b> - энергия объекта, <b>m</b> - его масса, <b>c</b> - скорость света в вакууме, равная 299 792 458 <i>м/с</i>.</p>
+                    <!-- 
+                        <b></b> - жирный шрифт
+                        <i></i> - курсив
+                        <sup></sup> - отображает шрифт в виде верхнего индекса 
+                    -->
+                </div>
+                <div class="list">
+                    <!-- select - раскрывающийся список -->
+                    <select size="1">
+                        <!-- option - пункт списка -->
+                        <option selected disabled>Выберите студента</option>
+                        <option value="Василенко Дмитро Віталійович">Василенко Дмитро Віталійович</option>
+                        <option value="Величко Юрій Віталійович">Величко Юрій Віталійович</option>
+                        <option value="Гармаш Владіслава Сергіївна">Гармаш Владіслава Сергіївна</option>
+                        <option value="Глоба Єлизавета Юріївна">Глоба Єлизавета Юріївна</option>
+                        <option value="Жегістовський Микита Сергійович">Жегістовський Микита Сергійович</option>
+                        <option value="Івахно Владислав Сергійович">Івахно Владислав Сергійович</option>
+                        <option value="Кірєєв Антон Юрійович">Кірєєв Антон Юрійович</option>
+                        <option value="Куберський Тихон Андрійович">Куберський Тихон Андрійович</option>
+                        <option value="Куліш Альона Ігорівна">Куліш Альона Ігорівна</option>
+                        <option value="Медведчук Костянтин Геннадійович">Медведчук Костянтин Геннадійович</option>
+                        <option value="Михеєв Максим Сергійович">Михеєв Максим Сергійович</option>
+                        <option value="Мірошниченко Аліна Андріївна">Мірошниченко Аліна Андріївна</option>
+                        <option value="Нечипоренко Нікіта Сергійович">Нечипоренко Нікіта Сергійович</option>
+                        <option value="Пилипенко Арсеній Олександрович">Пилипенко Арсеній Олександрович</option>
+                        <option value="Ровенчак Владислав Миколайович">Ровенчак Владислав Миколайович</option>
+                        <option value="Скрябін Артем Олександрович">Скрябін Артем Олександрович</option>
+                        <option value="Українцев Ігор В`Ячеславович">Українцев Ігор В`Ячеславович</option>
+                        <option value="Федулін Антон Олегович">Федулін Антон Олегович</option>
+                        <option value="Шевченко Владислав Сергійович">Шевченко Владислав Сергійович</option>
+                    </select>
+                </div>
+                <br>
+                <div class="table">
+                    <!-- table - таблица
+                         borfer - тольщина границы
+                         cellpadding - внутренние отступы в ячейках
+                    -->
+                    <table border="1" cellpadding="7">
+                        <!-- <caption></caption>  - заголовок к таблице -->
+                        <caption align="bottom">Таблица с данными оглавления</caption>
+                        <!-- 
+                            <tr></tr> - строка таблицы
+                            <td></td>, <th></th> - ячейки таблицы
+                            th - заголовочная ячейка
+                        -->
+                        <tr>
+                            <th>Номер страницы</th>
+                            <th>Имя файла</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td><a href="html.html">html.html</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td><a href="html_sec.html">html_sec.html</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <br>
+                <div class="form">
+                    <!-- <form action=""></form> - форма отправки данных -->
+                    <form action="">
+                        <div>
+                            <span>Имя:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+                            <input type="text">
+                        </div>
+                        <br>
+                        <div>
+                            <span>Фамилия:&nbsp</span>
+                            <input type="text">
+                        </div>
+                        <br>
+                        <div>
+                            <span>Отчество:&nbsp</span>
+                            <input type="text">
+                        </div>
+                        <br>
+                        <div>
+                            <span>Группа:&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+                            <select size="1">
+                                <option selected disabled>Выберите группу</option>
+                                <option value="КИУКИу-20-1">КИУКИу-20-1</option>
+                                <option value="КИУКИу-20-2">КИУКИу-20-2</option>
+                            </select>
+                        </div>
+                        <br>
+                        <input type="submit">
+                    </form>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Copyright &copy; 2021 Antony</th>
+        </tr>
+    </table>
+</body>
+</html>
